@@ -1,4 +1,3 @@
-/* Resetando as configurações padrões */
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +31,6 @@ body {
     color: var(--black-800);
 }
 
-/* Definindo as configurações de títulos e paragrafo */
 h1{
     color: var(--white);
     font-size: 2rem;
@@ -62,8 +60,6 @@ p{
     padding: 0.5rem 0;
 }
 
-/* Definindo as configurações do Flexbox */
-
 .flex {
     display: flex;
     justify-content: center;
@@ -75,7 +71,6 @@ p{
     justify-content: flex-start;
 }
  
- /* Estilização da Seção Header */
  #header_content {
     height: 80px;
     position: sticky; 
@@ -103,9 +98,7 @@ p{
     text-decoration: underline;
  }
  
- /* Estilização da Seção About */
-
- #about{
+#about{
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
@@ -122,16 +115,12 @@ p{
     width: 200px;
     border-radius: 90%;
 }
- 
-/* Estilização da Seção Video */
 
 #video{
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
  }
-
-/* Estilização da Seção Footer */
 
 footer{
     flex-direction: column;
@@ -174,9 +163,7 @@ footer{
             contrast(88%);
 }
 
- /*Estilização da Página de Contato*/
- 
- #contact{
+#contact{
     flex-direction: row;
     gap: 2rem;
  }
@@ -233,7 +220,6 @@ form button:hover {
     background: var(--purple-500);
 }
 
-/* Estilização do Mapa */
 #mapa{
     width: 480px;
     flex-direction: column;
